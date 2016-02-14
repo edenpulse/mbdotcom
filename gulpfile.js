@@ -3,7 +3,7 @@ var gulp = require('gulp');
 
 // Include plugins
 var sass = require('gulp-sass');
-var minify = require('gulp-minify-css');
+var minify = require('gulp-cssnano');
 var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
